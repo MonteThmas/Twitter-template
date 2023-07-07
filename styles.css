@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background: #E6E6E6;
+}
+
+/*Header Section*/
+.cover{
+    background-image: url(computer.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 30vh;
+}
+.overlay{
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+.headerMenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3px;
+}
+.menuBar a{
+    color: white;
+    margin: 10px;
+}
+.menuBar{
+    margin-left: 2rem;
+}
+.menuBar i{
+    margin-right: 10px;
+}
+.menuBar .active{
+    color: #1da1f2;
+}
+.sideMenu{
+    width: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.sideMenu img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.sideMenu input{
+    width: 200px;
+    padding: 7px 1rem;
+    border-radius: 20px;
+}
+.sideMenu a{
+    background-color: #1da1f2;
+    border-radius: 20px;
+    color: white;
+    padding: 5px 12px;
+    font-size: 14px;
+}
+
+/*body section*/
+
+/*body top menu*/
+.topMenu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 2rem;
+    background: #d8d8d8;
+    padding-left: 25%;
+}
+.topMenu .menuList a{
+    margin: 10px;
+    color: black;
+    font-weight: 600;
+}
+.blue{
+    color: #1da1f2 !important;
+}
+.follow a {
+    background-color: #1da1f2;
+    color: white;
+    padding: 7px 1rem;
+    font-size: 14px;
+    border-radius: 20px;
+}
+
+/*Main Body Wrapper*/
+
+.wrapper{
+    width: 100%;
+    display: flex;
+}
+.block1{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.profileCard{
+    width: 270px;
+    padding: 1.8rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: -7rem;
+}
+.profileCard .image{
+    display: flex;
+    justify-content: center;
+}
+.profileCard .image img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.profileCard .name{
+    margin-top: 1rem;
+}
+.profileCard .username{
+    color: grey;
+}
+.profileCard h4{
+    margin-top: 1rem;
+}
+.profileCard .mention{
+    color: #1da1f2;
+    cursor: pointer;
+}
+.aboutIcons{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.aboutIcons span{
+    color: grey;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.aboutIcons i {
+    font-size: 15px;
+    margin-right: 15px;
+    align-self: center;
+}
+
+.buttons{
+    width: 280px;
+    position: relative;
+    top: -5rem;
+    display: flex;
+    flex-direction: column;
+}
+.buttons button{
+    width: 100%;
+    background: #1da1f2;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    padding: 7px;
+    color: white;
+    cursor: pointer;
+}
+.buttons button i {
+    margin-right: 10px;
+
+}
+
+/*Block2 Section*/
+.block2{
+    width: 75%;
+    padding: 1rem;
+}
+.container{
+    display: flex;
+}
+.tweetFeed{
+    width: 700px;
+}
+.tweet{
+    width: 100%;
+    display: flex;
+    position: relative;
+    background-color: white;
+    padding: 10px 12px;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+    box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.1);
+}
+.tweet .logo{
+    width: 80px;
+    display: flex;
+    justify-content: right;
+    padding-right: 10px;
+}
+.tweet .logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.tweetDetails .topDetail{
+    display: flex;
+    justify-content: space-between;
+}
+.topDetail .userDetail{
+    display: flex;
+    align-items: center;
+}
+
+.userDetail h3{
+    font-size: 15px;
+}
+.userDetail h3 i{
+    color: #1da1f2;
+}
+.userDetail span{
+    margin-left: 1rem;
+    color: grey;
+    font-size: 14px;
+
+}
+.topDetail .moreDetail{
+    position: absolute;
+    right: 1rem;
+    color: grey;
+}
+.moreDetail span{
+    margin-right: 1rem;
+    font-size: 13px;
+}
+.moreDetail i{
+    cursor: pointer;
+}
+.tweetParagraph{
+    padding: 0.5rem 1rem 0.5rem 0;
+    font-size: 14px;
+    color: black;
+}
+.tweetParagraph img{
+    width: 500px;
+    height: 500px;
+}
+.tweetAction{
+    display: flex;
+    font-size:  15px
+}
+.tweetAction i{
+    margin: 10px;
+    cursor: pointer;
+    color: darkgray;
+}
+.tweetAction .fa-heart{
+    color: rgb(248, 18, 179) !important;
+}
+.tweetAction .fa-heart span{
+    font-size: 10px;
+    margin-left: 5px;
+}
+.tweetAction .fa-retweet{
+    color: rgb(0, 186, 124) !important;
+}
+.tweetAction .fa-retweet span{
+    font-size: 10px;
+    margin-left: 5px; 
+}
+.sponsor .card{
+    width: 220px;
+    margin-left: 2rem;
+    text-align: center;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.1);
+
+}
+.card img{
+    width: 150px;
+    height: 150px;
+    margin-top: 2rem;
+}
+.card h5{
+    margin: 10px 0;
+}
+.card p{
+    font-size: 12px;
+}
